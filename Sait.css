@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+header img{
+    width: 80px;
+}
+nav div{
+    height: 2px;
+    width: 25px;
+    background-color: black;
+    margin: 3px;
+}
+.banner{
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8f0777a3ca3152e48e730e72/jhj-min.jpg);
+    height: 80vh;
+    color: white;
+    background-size: cover;
+    background-position: -20%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    
+}
+.banner{
+    display: flex;
+    justify-content: end;
+
+}
+.description{
+    width: 40vh;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-right: 250px;
+    line-height: 160%;
+}
+.title-banner{
+    font-size: 48px;
+    max-width: 520px;
+    font-weight: 10;
+    margin: 50px;
+    border-right: 13px solid #e8b846;
+    padding-right: 50px;
+}
+button{
+    font-size: 18px;
+    background-color: #e8b846;
+    height: 60px;
+    width: 150px;
+    border-radius: 11px;
+    border: none;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: white;
+}
+.service{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.home{
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+
+}
+.servicediv{
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    margin: 12px;
+}
+.servicediv i{
+    margin-top: 20px;
+}
+.signature{
+    font-weight: bolder;
+}
+.signaturetext{
+    display: flex;
+    margin-top: 80px;
+}
+.studio-appartament{
+    background-color: #e8b846;
+    height: 1015px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+.studio-appartamentdiv{
+    background-color: white;
+    width: 500px;
+    height: 540px;
+    position: absolute;
+    right: 380px;
+    bottom: 60px;
+}
+.signature1{
+    font-weight: bolder;
+    font-size: 48px;
+    margin: 40px;
+}
+.signaturetext1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin: 30px;
+    line-height: 160%;
+    font-size: 22px;
+}
+.studio-appartament-button{
+    margin: 30px;
+}
+.studio-appartament-button:hover{
+    background-color: black;
+    color: white;
+}
+.studio-appartament-img{
+    width: 900px;
+    height: 550px;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    margin-bottom: 280px;
+    margin-right: 200px;
+}
